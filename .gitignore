@@ -1,0 +1,9 @@
+# Python 인터프리터가 .py 파일을 바이트코드로 컴파일할 때 생성하는 __pycache__ 폴더를 제외합니다.
+__pycache__/
+# 모든 .pyc, .pyo, .pyd 파일을 제외합니다.
+*.py[cod]
+# Jython (Java로 구현된 Python) 환경에서 생성되는 .class 파일을 제외합니다.
+*$py.class
+
+# Poetry 가상환경 (선택 사항)
+.venv/
