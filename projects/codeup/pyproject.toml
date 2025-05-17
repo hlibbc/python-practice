@@ -1,0 +1,20 @@
+[project]
+name = "codeup"
+version = "0.1.0"
+description = "Problem sets: 100 Python basics"
+authors = [
+    {name = "hlibbc",email = "hlib.master@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+basic049 = "codeup.basic049:main"
+basic050 = "codeup.basic050:main"
