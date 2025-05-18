@@ -1,7 +1,7 @@
-# 정수 2개 입력받아 비교하기 (==, !=)
+# 실수 2개 입력받아 곱 계산하기
 def main():
     a, b = input().split()
-    print(int(a) == int(b))
+    print(float(a) * float(b))
 
 if __name__ == "__main__":
     main()
