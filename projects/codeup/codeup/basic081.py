@@ -18,4 +18,4 @@ if __name__ == "__main__":
     try:
         main()
     except ValueError as e:
-        print(e)
+        print(e) # poetry로 실행하면 traceback까지 같이 찍힘. python3로 해당파일만 실행하면 딱 이 에러만 출력됨
