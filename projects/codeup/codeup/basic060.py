@@ -1,7 +1,7 @@
-# 정수 2개 입력받아 비교하기 (==)
+# 비트단위로 AND 하여 출력
 def main():
     a, b = input().split()
-    print(int(a) == int(b))
+    print(int(a) & int(b)) # bitwise and
 
 if __name__ == "__main__":
     main()
